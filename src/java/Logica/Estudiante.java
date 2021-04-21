@@ -14,5 +14,9 @@ public class Estudiante extends Persona {
     public Estudiante(String nombre, int cedula, String correo, String telefono, Usuario usuario) {
         super(nombre, cedula, correo, telefono, usuario);
     }
+
+    public Estudiante() {
+       super("",0,"","",null);
+    }
     
 }
